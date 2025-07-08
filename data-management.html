@@ -17,10 +17,11 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0 m-0">
+    
+     <div class="container-fluid p-0 m-0">
         <nav class="navbar sticky-top navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand ps-lg-5" href="#">
+                <a class="navbar-brand ps-lg-5" href="./index.html">
                     <img src="./css/images/ELEVATE IT logo png.png" width="160px" class="img-fluid" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,18 +35,32 @@
                         <li class="nav-item ps-lg-5">
                             <a class="nav-link fw-semibold" aria-current="page" href="./index.html">Home </a>
                         </li>
-                        <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">Services</a>
+                        <li class="nav-item dropdown ps-lg-4">
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./data-management.html">Data Management Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-implementation-services.html">SAP Implementation Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./application-security-services.html">Application Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./iam-and-security-services.html">IAM and Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./grc-solutions.html">GRC Solution by Elevate IT</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-core-solutions.html">SAP Functional and Technical Consulting</a></li>
+                            </ul>
                         </li>
+                        <!-- <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="#">Services</a>
+                        </li> -->
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">About Us</a>
+                            <a class="nav-link fw-semibold" href="./about-us.html">About Us</a>
                         </li>
 
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">E-Comment</a>
+                            <a class="nav-link fw-semibold" href="./e-comment.html">E-Comment</a>
                         </li>
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#"><button
+                            <a class="nav-link fw-semibold" href="./contact.html"><button
                                     class="px-3 py-1 rounded-5 bg-color-orange text-white border-0">Contact
                                     Us</button></a>
                         </li>
@@ -55,12 +70,15 @@
         </nav>
     </div>
 
-    <div class="container-fliud back-img-data d-lg-flex align-items-center text-white p-0 m-0 mt-5">
-        <div class="d-lg-flex text-white justify-content-center ps-5 ms-5">
-            <h1 class="ps-5 ms-5">Data Mangement</h1>
-        </div>
 
-    </div>
+  <div class="hero-section">
+  <!-- <div class="hero-overlay"></div> -->
+  <div class="hero-content">
+    <h1>Data Management</h1>
+  </div>
+</div>
+    
+   
 
     <div class="container mt-5">
         <h3 class="text-color-blue fw-semibold pb-3">Data Management Services by Elevate IT Solutions</h3>
@@ -73,8 +91,8 @@
             architectures.</p>
     </div>
 
-    <div class="container-fluid mt-5 p-0">
-        <h3 class="text-color-blue fw-semibold pb-3 ps-lg-5">Our Core Data Management Offerings</h3>
+    <div class="container-fliud mt-5 p-0">
+        <h3 class="text-color-orange fw-semibold pb-3 ps-lg-5">Our Core Data Management Offerings</h3>
 
         <div class="row row-cols-lg-3 m-0">
             <div class="bg-body-secondary p-0 rounded-end-pill m-0">
@@ -117,14 +135,12 @@
                 <h4 class="text-color-blue fw-semibold p-1 ps-lg-5 ms-lg-5">Data Governance & Quality Management</h4>
             </div>
             <div></div>
-            <div></div>
         </div>
         <div class="container mt-3">
             <p>• Establishment of data stewardship, cataloging, and lineage tracking frameworks.</p>
             <p>• Metadata management, data classification, and automated quality checks.</p>
             <p>• Implementation of Master Data Management (MDM) strategies to maintain consistency across systems.</p>
         </div>
-
 
         <div class="row row-cols-lg-3 m-0">
             <div></div>
@@ -139,13 +155,11 @@
                 <div class="col-lg-8">
                     <p>• Implementation of data privacy controls aligned with global and regional regulations such as:
                     </p>
-
                     <p>• GDPR (EU)</p>
                     <p>• CCPA/CPRA (California)</p>
                     <p>• PDPA (Singapore, Thailand)</p>
                     <p>• DPDP Act (India)</p>
                     <p>• HIPAA, SOX, and other sector-specific standards</p>
-
                     <p>• Consent management, data subject rights (DSAR) handling, and audit logging.</p>
                     <p>• Data anonymization, masking, and encryption services for structured and unstructured data.</p>
                 </div>
@@ -156,7 +170,6 @@
             <div class="bg-body-secondary p-0 rounded-end-pill m-0 mt-4">
                 <h4 class="text-color-blue fw-semibold ps-lg-5 ms-lg-5 p-1">Cloud Data Management & Modernization</h4>
             </div>
-            <div></div>
             <div></div>
         </div>
         <div class="container mt-3">
@@ -191,7 +204,7 @@
             <div class="col-lg-9">
                 <div class="d-lg-flex bg-color-blue text-white row rounded-end-pill">
                     <div class="col-lg-7 ps-lg-5">
-                        <h4 class="text-color-orange fw-semibold pt-5">The Elevate IT Difference</h4>
+                        <h4 class="text-color-orange fw-semibold pt-4 pb-2">The Elevate IT Difference</h4>
                         <p>• Data Strategy to Execution: From advisory and architectural planning to hands-on
                             implementation and continuous optimization, we deliver full lifecycle data services.</p>
                         <p>• Accelerated Time to Insight: With proven templates, prebuilt connectors and automation
@@ -208,61 +221,57 @@
                 </div>
             </div>
 
-            <div></div>
+            <div>
 
-
+            </div>
         </div>
 
     </div>
 
-
-    <div class="container py-5">
+    <div class="container mt-5">
         <div class="text-center">
             <h3 class="text-color-blue fw-semibold pb-3">Why Elevate IT Solutions is a Leader in Data Management</h3>
             <p>At Elevate IT Solutions, we believe effective data management is the foundation of digital innovation.
                 Our team is adept at balancing performance, governance, and compliance — ensuring data is accurate,
                 secure, and usable across the enterprise.</p>
-
-        </div>
-        <div class="row row-cols-lg-2 text-white mt-5">
-            <div class="bg-color-orange rounded-pill p-4 text-center">
-                <div Class="">
-                    <p class="fs-6">Tool-Agnostic Expertise</p>
-                    <p>We support a wide ecosystem of tools, ensuring flexibility and alignment with your existing
-                        investments and future strategy.</p>
-
-                </div>
-            </div>
-
-            <div class="bg-color-blue rounded-pill p-4 text-center">
-                <div>
-                    <p class="fs-6">Compliance-First Design</p>
-                    <p>Every solution is built with privacy, auditability, and regulatory compliance at its core.</p>
-
-                </div>
-            </div>
-
-
-
-            <div class="bg-color-blue rounded-pill p-4 text-center mt-3">
-                <div>
-                    <p class="fs-6">Business-Centric Insights</p>
-                    <p>Our dashboards and reporting solutions are tailored to your operational realities, not just
-                        technical KPIs.</p>
-
-                </div>
-            </div>
-            <div class="bg-color-orange rounded-pill p-4 text-center mt-3">
-                <div>
-                    <p class="fs-6">Industry-Aware Frameworks</p>
-                    <p>We bring domain-specific best practices for sectors like BFSI, healthcare, retail, manufacturing,
-                        and public sector.</p>
-
-                </div>
-            </div>
         </div>
     </div>
 
+    <div class="container-fliud">
+        <div class="row row-cols-lg-3 justify-content-center flex-wrap text-white mt-5">
+            <div class="bg-color-orange rounded-pill p-3 text-center me-3">
+                <div Class="">
+                    <p class="fs-5 fw-semibold">Tool-Agnostic Expertise</p>
+                    <p>We support a wide ecosystem of tools, ensuring flexibility and alignment with your existing
+                        investments and future strategy.</p>
+                </div>
+            </div>
+
+            <div class="bg-color-blue rounded-pill p-3 text-center">
+                <div>
+                    <p class="fs-5 fw-semibold">Compliance-First Design</p>
+                    <p>Every solution is built with privacy, auditability, and regulatory compliance at its core.</p>
+                </div>
+            </div>
+
+            <div class="bg-color-blue rounded-pill p-4 text-center mt-3 me-3">
+                <div>
+                    <p class="fs-5 fw-semibold">Business-Centric Insights</p>
+                    <p>Our dashboards and reporting solutions are tailored to your operational realities, not just
+                        technical KPIs.</p>
+                </div>
+            </div>
+
+            <div class="bg-color-orange rounded-pill p-4 text-center mt-3">
+                <div>
+                    <p class="fs-5 fw-semibold">Industry-Aware Frameworks</p>
+                    <p>We bring domain-specific best practices for sectors like BFSI, healthcare, retail, manufacturing,
+                        and public sector.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <div class="container-fliud bg-body-secondary text-center mt-5 px-5 py-5 d-flex justify-content-center">
         <div>
