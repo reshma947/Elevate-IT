@@ -18,10 +18,10 @@
 
 <body>
 
-      <div class="container-fluid p-0 m-0">
+    <div class="container-fluid p-0 m-0">
         <nav class="navbar sticky-top navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand ps-lg-5" href="#">
+                <a class="navbar-brand ps-lg-5" href="./index.html">
                     <img src="./css/images/ELEVATE IT logo png.png" width="160px" class="img-fluid" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,18 +35,32 @@
                         <li class="nav-item ps-lg-5">
                             <a class="nav-link fw-semibold" aria-current="page" href="./index.html">Home </a>
                         </li>
-                        <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">Services</a>
+                        <li class="nav-item dropdown ps-lg-4">
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./data-management.html">Data Management Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-implementation-services.html">SAP Implementation Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./application-security-services.html">Application Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./iam-and-security-services.html">IAM and Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./grc-solutions.html">GRC Solution by Elevate IT</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-core-solutions.html">SAP Functional and Technical Consulting</a></li>
+                            </ul>
                         </li>
+                        <!-- <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="#">Services</a>
+                        </li> -->
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">About Us</a>
+                            <a class="nav-link fw-semibold" href="./about-us.html">About Us</a>
                         </li>
 
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#">E-Comment</a>
+                            <a class="nav-link fw-semibold" href="./e-comment.html">E-Comment</a>
                         </li>
                         <li class="nav-item ps-lg-4">
-                            <a class="nav-link fw-semibold" href="#"><button
+                            <a class="nav-link fw-semibold" href="./contact.html"><button
                                     class="px-3 py-1 rounded-5 bg-color-orange text-white border-0">Contact
                                     Us</button></a>
                         </li>
@@ -55,6 +69,17 @@
             </div>
         </nav>
     </div>
+
+
+    <div class="hero-section">
+  <!-- <div class="hero-overlay"></div> -->
+  <div class="hero-content">
+    <h1>E-comment</h1>
+  </div>
+</div>
+
+
+
 
 
     <div class="container py-5">
