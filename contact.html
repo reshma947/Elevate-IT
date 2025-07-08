@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+     <div class="container-fluid p-0 m-0">
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-lg-5" href="./index.html">
+                    <img src="./css/images/ELEVATE IT logo png.png" width="160px" class="img-fluid" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-around" id="navbarSupportedContent">
+                    <div class="bg-info"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ps-lg-5">
+                            <a class="nav-link fw-semibold" aria-current="page" href="./index.html">Home </a>
+                        </li>
+                        <li class="nav-item dropdown ps-lg-4">
+                            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./data-management.html">Data Management Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-implementation-services.html">SAP Implementation Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./application-security-services.html">Application Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./iam-and-security-services.html">IAM and Security Service</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./grc-solutions.html">GRC Solution by Elevate IT</a></li>
+                                <li><a class="dropdown-item" id="servicesDropdown-menu" href="./sap-core-solutions.html">SAP Functional and Technical Consulting</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="#">Services</a>
+                        </li> -->
+                        <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="./about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="./e-comment.html">E-Comment</a>
+                        </li>
+                        <li class="nav-item ps-lg-4">
+                            <a class="nav-link fw-semibold" href="./contact.html"><button
+                                    class="px-3 py-1 rounded-5 bg-color-orange text-white border-0">Contact
+                                    Us</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="form-section d-flex justify-content-between align-items-start">
+        <!-- Left Column -->
+        <div class="col-lg-6 pe-4">
+            <div class="form-text mb-4">
+                <h3>Lets’ <span>Talk</span></h3>
+                <p>At Elevate, we are specialized in providing comprehensive SAP Implementation Services</p>
+            </div>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Your Email</label>
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Your Messages</label>
+                    <textarea class="form-control" rows="3" placeholder="Type your message..."></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn-send">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-lg-6">
+            <div class="img-section d-flex justify-content-center">
+                <img src="./css/images/about-img-1.jpg" alt="Contact Illustration">
+            </div>
+            <div class="social-icons text-center mt-4">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="office-card d-flex align-items-start flex-lg-row flex-column">
+            <!-- Map Image -->
+            <div class="">
+                <iframe
+                    src="https://www.google.com/maps?q=Elevate%20IT,%20Pillar%20no%20143,%20Attapur,%20Hyderabad,%20Telangana,%20India%20500048&output=embed"
+                    allowhalfscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" height="200px">
+                </iframe>
+            </div>
+
+            <!-- Office Info -->
+            <div class="col-lg-6 office-info mt-3 mt-lg-0">
+                <h6>India Office</h6>
+                <p>4-3-116/1, 1st & 2nd Floor,<br>
+                    Wase Arcade, Pillar No-123,<br>
+                    Attapur, Hyderabad, Telangana,<br>
+                    500048-India</p>
+                <p><strong>Email:</strong> info@exploreanddo.com</p>
+                <p><strong>Phone:</strong> +91 799 581 6886<br>
+                    +91 810 601 6337</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-color-blue mt-5">
+        <div class="container pt-5 pb-5 text-white">
+            <div class="row row-cols-lg-2 row-cols-sm-1 d-flex justify-content-between">
+                <div class="">
+                    <h4 class="fw-bold pb-2">Services</h4>
+                    <p>Data Management Service</p>
+                    <p>SAP Implementation Service</p>
+                    <p>Application Security Service</p>
+                    <p>IAM and Security Service</p>
+                    <p>GRC Solution by Elevate IT</p>
+                    <p>SAP functional and technical consultanting</p>
+                </div>
+
+                <div class="">
+                    <h4 class="fw-bold pb-2">Contact Info</h4>
+                    <p class="m-0 p-0">Address:</p>
+                    <p class="lh-2">Pillar No-123, Wase Arcade,
+                        <br> Attapur, Hyderabad, <br>Telangana, 500048
+                    </p>
+                    <p>Email: elevateit@gmail.com</p>
+                    <p>Contact no: +91 123-456-7890</p>
+                    <p class="fw-semibold fs-5">Follow Us</p>
+                    <div class="d-flex text-white">
+                        <a href="#" class="border-0 bg-white me-3 rounded-1">
+                            <i class="fa-brands fa-linkedin-in text-color-blue p-1"></i> </a>
+                        <a href="#" class="border-0 bg-white me-3 rounded-1"> <i
+                                class="fa-brands fa-twitter text-color-blue p-1"></i> </a>
+                        <a href="#" class="border-0 bg-white me-3 rounded-1"> <i
+                                class="fa-brands fa-facebook text-color-blue p-1"></i> </a>
+                        <a href="#" class="border-0 bg-white me-3 rounded-1"> <i
+                                class="fa-brands fa-instagram text-color-blue p-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
